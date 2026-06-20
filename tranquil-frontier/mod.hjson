@@ -1,0 +1,17 @@
+name: "t-f"
+displayName: "Tranquil Frontier"
+description:
+'''
+A peaceful mod, you will not face enemies.
+Create your own technology and expand.
+
+[#BBCCBB]HIGHLY inspired by Carpe Diem (nullotte/carpe-diem) try that out too!
+This mod uses Java for a few custom things.
+
+[#AABBAA]btw if you like action this mod may not be your type.
+'''
+author: "jstation
+minGameVersion: 157.4
+version: "0"
+subtitle: "Seize the night"
+repo: jstational/tranquil-frontier
