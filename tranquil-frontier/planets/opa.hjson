@@ -1,0 +1,11 @@
+alwaysUnlocked: false
+parent: "tauru"
+solarSystem: "arath"
+orbitRadius: 15
+startSector: 12
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+drawOrbit: true
+radius: 0.5
