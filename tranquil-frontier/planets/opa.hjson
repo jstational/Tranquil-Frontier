@@ -1,4 +1,6 @@
 alwaysUnlocked: false
+name: "opa"
+localizedName: "Opa"
 parent: "tauru"
 solarSystem: "arath"
 orbitRadius: 15
@@ -9,3 +11,20 @@ allowLaunchLoadout: false
 allowSectorInvasion: false
 drawOrbit: true
 radius: 0.5
+mesh: [
+    {
+        planet: opa
+        type: NoiseMesh
+        seed: 45923
+        divisions: 3
+        color1: 636285
+        color2: 535363
+        color3: a5a5cf
+        color4: 595996
+        octaves: 4
+        persistence: 4
+        scl: 4
+        pow: 4
+        mag: 2
+    }
+]

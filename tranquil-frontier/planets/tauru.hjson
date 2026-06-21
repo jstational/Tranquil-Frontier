@@ -1,0 +1,45 @@
+alwaysUnlocked: true
+name: "tauru"
+localizedName: "[#6665a1]Tauru"
+parent: "arath"
+solarSystem: "arath"
+orbitRadius: 25
+startSector: 12
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: true
+allowSectorInvasion: false
+drawOrbit: true
+radius: 0.9
+minZoom: 1.5
+maxZoom: 3
+accessible: true
+tidalLock: true
+orbitTime: 40000
+sectorSize: 1.7
+defaultEnv: 211
+unlockedOnLand: []
+generator: AsteroidGenerator
+sectorSeed: 0
+iconColor: 6665a1
+atmosphereRadIn: 0
+atmosphereRadOut: 1.8
+atmosphereColor: 9c9be0
+updateLighting: false
+allowWaves: false
+mesh: [
+    {
+        planet: tauru
+        type: NoiseMesh
+        seed: 45923
+        divisions: 3
+        color1: 636285
+        color2: 535363
+        color3: a5a5cf
+        color4: 595996
+        octaves: 4
+        persistence: 4
+        scale: 4
+        mag: 2
+    }
+]
