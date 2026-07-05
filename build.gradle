@@ -89,6 +89,10 @@ jar{
     from(projectDir){
         include "mod.json"
     }
+
+    from("jsw/"){
+        include "scripts"
+    }
 }
 
 tasks.register('deploy', Jar){
