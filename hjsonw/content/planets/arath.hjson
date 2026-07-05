@@ -1,9 +1,10 @@
 alwaysUnlocked: false
 name: "arath"
+type: "St
 localizedName: "[#577594]Arath"
 mesh: [
     {
-        sun: arath
+        planet: arath
         type: NoiseMesh
         seed: 45923
         divisions: 3
