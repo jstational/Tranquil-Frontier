@@ -1,14 +1,16 @@
 package tf.world.blocks.distribution;
 
 import mindustry.world.blocks.distribution.*;
-import mindustry.gen.Building;
 import mindustry.type.*;
 
+/** Duct that only allows allowedItems to pass */
 public class FilterDuct extends Duct {
-    public ItemSeq AllowedItems;
+    public ItemSeq allowedItems;
 
     public FilterDuct(String name) {
         super(name);
     }
-    public class FilterDuctBuild extends DuctBuild {}
+    public class FilterDuctBuild extends DuctBuild {
+        public FilterDuct block;
+    }
 }
