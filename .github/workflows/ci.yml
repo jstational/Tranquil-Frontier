@@ -25,6 +25,6 @@ jobs:
       - name: upload
         uses: actions/upload-artifact@v4
         with: 
-          name: 'game8'
+          name: 'tf'
           path: build/libs/*.jar
   
